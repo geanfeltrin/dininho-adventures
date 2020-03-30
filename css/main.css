@@ -5,10 +5,11 @@
 
 @import './elements/base.css';
 @import './elements/titles.css';
-@import './elements/container.css';
+@import './elements/wrapper-contents.css';
 
 @import './components/title-dininho.css';
 @import './components/video-dininho.css';
+@import './components/carousel.css';
 @import './components/button-dininho.css';
 @import './components/separator-egg-dininho.css';
 @import './components/subtitle-dininho.css';
@@ -16,6 +17,8 @@
 @import './components/list-dininho.css';
 @import './components/copyright-dininho.css';
 @import './components/social-media.css';
+@import './components/key.css';
+@import './components/black-background.css';
 
 
 @import './container/header-dininho.css';

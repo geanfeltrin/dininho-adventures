@@ -23,7 +23,6 @@
   transform: translateX(-100%);
 }
 
-
 .wrapper-video-dininho > .play {
   display: flex;
   justify-content: center;
@@ -50,3 +49,13 @@
   border-left: 25px solid #110524;
   transform: translateX(2px);
 }
+
+@media (min-width: 600px) {
+  .section-dininho.-video{
+    display: none;
+  }
+  .wrapper-video-dininho > .play  {
+    top: 220px;
+  }  
+}
+

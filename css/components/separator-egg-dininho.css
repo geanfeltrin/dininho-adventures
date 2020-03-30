@@ -14,6 +14,7 @@
   align-items: center;
   margin-top: var(--gap-medium);
   margin-bottom: var(--gap-medium);
+  cursor: pointer;
 }
 
 .separator-egg-dininho.-big{
@@ -43,4 +44,19 @@
 .separator-egg-dininho::after {
   border-radius: 2px 0 0 2px;
   
+}
+
+@media (min-width: 600px) {
+  .separator-egg-dininho {
+    --half-width-egg: 22px;
+    --half-width-eggs: 35px;
+
+    height: 44px;
+    background-size: auto 44px;
+  }
+
+  .separator-egg-dininho.-big {
+    background-size: 100px auto;
+    height: 100px;
+  }
 }
