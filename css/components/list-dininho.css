@@ -1,0 +1,7 @@
+.list-dininho {
+  display: block;
+}
+
+.list-dininho .item {
+  margin-bottom: var(--gap-very-small);
+}
