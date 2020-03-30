@@ -26,3 +26,18 @@
   bottom: calc(var(--gap-big) + 60px);
   width: 30px;
 }
+
+
+@media (min-width: 600px) {
+  .header-dininho {
+    height: 52%;
+  }
+  .header-dininho > .dininho {
+    width: 50px;
+    bottom: calc(var(--gap-big) + 40px);
+  }
+
+  .header-dininho > .logo {
+    max-width: fit-content;
+  }
+}
